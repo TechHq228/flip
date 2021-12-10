@@ -55,6 +55,23 @@ header:focus .slogan {
   text-shadow: 1px 1px 3px black;
 }
 
+@media (max-width: 530px) {
+  .slogan {
+    padding-right: 0;
+  }
+  .bigletters {
+    font-size: 25px;
+  }
+  header:hover .smallletters {
+    font-size: 15px;
+  }
+  .table {
+    display: none;
+    width: 20px;
+    padding-right: 20px;
+  }
+}
+
 .table {
   margin: 0;
   margin-bottom: -5px;
